@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  color: black;
+  background-image: url("assets/metal.gif");
+  background-repeat: repeat;
+  font-family: Verdana;
+}
+
+.img_center {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
