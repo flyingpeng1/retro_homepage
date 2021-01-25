@@ -173,6 +173,19 @@ p {
   width: 100%;
 }
 
+.click_into {
+  width: 40%;
+  height: width;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.welcome_text {
+    font-size: 40px;
+}
+
 /* stolen shamelessly from somewhere else*/
 .a5 {
   position: absolute;
