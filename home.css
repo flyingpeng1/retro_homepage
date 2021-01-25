@@ -23,7 +23,6 @@ body {
  height: 175px;
  border: 7px;
  border-style: double;
- padding: 1px;
  border-color: #f000ff;
  background-color: #04005e;
  border-radius: 15px;
@@ -90,3 +89,134 @@ a:visited {
   border-width: 4px;
   border-radius: 7;
 }
+
+.hits {
+  background-image: url("assets/texture.png");
+  background-attachment: fixed;
+  border-color: #f000ff;
+  border-style: inset;
+  padding: 5px;
+}
+
+.hits_window {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+
+.penguin {
+  /*background-color: white;
+  border-radius:25px;*/
+  position:relative;
+  bottom:70px
+}
+
+.message_window {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.front-message {
+  background-image: url("assets/texture.png");
+  background-attachment: fixed;
+  border-color: #f000ff;
+  border-style: inset;
+  padding: 5px; 
+}
+
+.centered_img {
+    display: block;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.grid-container-top {
+  display: inline-grid;
+  grid-auto-columns: auto auto auto auto auto;
+  grid-column-gap: 5px;
+  padding-top: 30px;
+  border-top-width: 5px;
+  border-top-style: double;
+  border-top-color: #f000ff;
+  display: flex;
+  justify-content: center;
+}
+
+
+.grid-container-bottom {
+  display: inline-grid;
+  grid-auto-columns: auto auto auto auto auto;
+  grid-column-gap: 5px;
+  padding-top: 5px;
+  border-top-width: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+p {
+   text-indent: 50px;
+}
+
+.nav_gap {
+  line-height: 4;
+}
+
+.about_pictures {
+  display:inline-block;
+  margin: 0 auto;  
+  text-align:center;
+  width: 100%;
+}
+
+/* stolen shamelessly from somewhere else*/
+.a5 {
+  position: absolute;
+    left: 500px;
+    top: 000px;
+    z-index: 6;
+     overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-bottom: .15em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    
+}
+
+#blur{
+    font-size: 40px;
+    color: transparent;
+    text-shadow: 0 0 8px white;
+}
+
+#blur2{
+    filter: blur(2px);
+}
+
+#blur11{
+    font-size: 40px;
+    text-shadow: 0 0 8px crimson;
+}
+
+
+#verticalText{
+font-family: 'CaviarDreams';
+text-align: center;
+font-size: 25px;
+padding-top: 35px;
+writing-mode: vertical-rl;
+text-orientation: upright;
+
+    text-shadow: 0 0 10px white;
+
+}
+
+
+
